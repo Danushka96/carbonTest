@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="468.0" prefWidth="666.0" fx:controller="mainController" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ComboBox layoutX="23.0" layoutY="122.0" prefHeight="26.0" prefWidth="201.0" />
+      <ComboBox layoutX="253.0" layoutY="122.0" prefHeight="26.0" prefWidth="201.0" />
+      <TextField layoutX="477.0" layoutY="123.0" prefHeight="25.0" prefWidth="178.0" />
+      <Text layoutX="23.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vehicle Type">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="253.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="477.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Engine Capasity" wrappingWidth="178.0000030696392">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <TextField layoutX="142.0" layoutY="252.0" prefHeight="152.0" prefWidth="384.0" style="-fx-background-radius: 25;" text="RS: 2500 /=">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
